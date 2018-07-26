@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-I am a girlgirl
-=======
-I am a boy
->>>>>>> orgin2/master
