@@ -1,1 +1,0 @@
-python ../fastq-tools.py 
