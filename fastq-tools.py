@@ -13,5 +13,12 @@ def parse_args():
 	args = parse.parse_args()
 	return args
 
-arg = parse_args()
+args = parse_args()
 print('program starts')
+print('Parse arg module test begins')
+print('--input:\t%s' %args.input)
+print('--type:\t%s' %args.type)
+print('--method:\t%s' %args.method)
+print('--verbose:\t%s' %args.verbose)
+print('--output:\t%s' %args.output)
+print('Parse arg module test ends')
