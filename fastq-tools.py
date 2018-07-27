@@ -13,3 +13,5 @@ def parse_args():
 	args = parse.parse_args()
 	return args
 
+arg = parse_args()
+print('program starts')
