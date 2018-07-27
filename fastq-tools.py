@@ -12,4 +12,11 @@ def parse_args():
 	parse.add_argument('-o','--output',action='store',required=True,help='output file name')
 	args = parse.parse_args()
 	return args
-
+args = parse_args()
+print('Parse arg module test begins')
+print('--input:\t%s' %args.input)
+print('--type:\t%s' %args.type)
+print('--method:\t%s' %args.method)
+print('--verbose:\t%s' %args.verbose)
+print('--output:\t%s' %args.output)
+print('Parse arg module test ends')
